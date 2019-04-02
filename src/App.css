@@ -1,14 +1,16 @@
-[name="username"]{
-  margin: 2em;
+p {
+padding-right: 25px
+}
+[name="confirm"]{
+  margin-top: -36px;
+}
+ [name="passWord"]{
+   padding-right: 13px
+ }
+ [name="userName"]{
+  padding-right: 9px
+}
 
-}
-[name="password"]{
-  margin: 2.5em;
-}
-
-[name="confirmPassword"]{
-  margin: 2em;
-}
 [name="submit"] {
   font-size: 20px; background: blue; color: white;
 }
@@ -18,4 +20,7 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
   
+}
+h1 {
+  font-size: 60px
 }

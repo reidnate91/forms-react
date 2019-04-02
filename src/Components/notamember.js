@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
-import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import '../App.css';
 
 
-
-
-
-
-
-class NameForm extends React.Component {
+class Member extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -38,9 +32,6 @@ class NameForm extends React.Component {
     alert('A name was submitted: ' + this.state.username);
     event.preventDefault();
   }
-  
-  
-
   render() {
     return (
      <div>
@@ -54,8 +45,9 @@ class NameForm extends React.Component {
       <tr>
         <label>
           
-            <td><p name="userName">Username</p></td>
+           
           <td><input
+          placeholder="Username"
             name="username"
             type="text"
             value={this.state.username}
@@ -103,17 +95,7 @@ class NameForm extends React.Component {
        </label>
        </tr>
        
-       <tr>
-       <label>
-         <td>
-       <Router>
-         <Route>
-         <Link to='./notamember'>Not a Member?</Link>
-         </Route>
-         </Router>
-       </td>
-       </label>
-       </tr>
+       
         </tbody>
         </table>
       </form>
@@ -125,7 +107,8 @@ class NameForm extends React.Component {
   
 }
 
+  
 
-export default NameForm
 
 
+export default Member

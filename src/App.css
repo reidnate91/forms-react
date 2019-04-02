@@ -1,0 +1,21 @@
+[name="username"]{
+  margin: 2em;
+
+}
+[name="password"]{
+  margin: 2.5em;
+}
+
+[name="confirmPassword"]{
+  margin: 2em;
+}
+[name="submit"] {
+  font-size: 20px; background: blue; color: white;
+}
+
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
